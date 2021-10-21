@@ -8,7 +8,7 @@ db = mysql_client.connect(
 )
 # print(db)
 # 2 namae properNoun 4 1444.0 .14 2020-02-04 2020-02-05
-# 3 honey food 40 300.00 .10 2020-06-06 2030-06-06
+# 4 chalk writingTool 50 30.00 .16 2020-06-06 2040-06-06
 
 query = "INSERT INTO products VALUES (%s, %s, %s, %s, %s, %s, %s, %s);"
 value = (input("Enter prod_id, name, category, quantity, price, discount, dom, doe in order with spaces::\n").split())
